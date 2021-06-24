@@ -251,7 +251,7 @@ function esVocal(letra){
         return "Es vocal";
     }
 
-  }
+}
 
 
 
