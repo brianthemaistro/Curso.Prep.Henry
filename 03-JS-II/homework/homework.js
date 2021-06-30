@@ -171,7 +171,7 @@ function operadoresLogicos(num1, num2, num3) {
   if (num1 > num2 && num1 > num3); {
     return "Número 1 es mayor y positivo";
   }
- 
+    
 }
 
 function esPrimo(numero) {
@@ -215,11 +215,12 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (Number.isInteger(numero) && numero >= 100 ) {
+  if (Number.isInteger(numero) && (numero < 1000 && numero > 99) {
     return true
   }
   return false
 }
+
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
